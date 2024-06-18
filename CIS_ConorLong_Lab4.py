@@ -1,19 +1,19 @@
 # Module 4 Lab-4
 # Conor Long
-# 6/14/2024
+# 6/17/2024
 # This program simulates an employee bonus calculator for businesses. It calculates individual store employee bonuses based on their store's store statistics and sales increase.
 
-# declare local variables
-monthlySales = 0  # monthly sales amount
-storeAmount = 0  # store bonus amount
-empAmount = 0  # employee bonus amount
-salesIncrease = 0  # percent of sales increase
-prompt = 'Please enter the following store statistics:' # prompt will be a string literal   
+# This declares multiple variables.
+monthlySales = 0  # The monthly sales amount.
+storeAmount = 0  # The store bonus amount.
+empAmount = 0  # The employee bonus amount.
+salesIncrease = 0  # The percent of sales increase.
+prompt = 'Please enter the following store statistics:'    
 
-# This code gets the monthly sales
+# A variable has an input while stores the monthly sales.
 monthlySales = float(input(prompt))
 
-# This code determines the store bonus
+# This if-elif-else statement etermines the store bonus.
 if monthlySales >= 110000:
     storeAmount = 6000
 elif monthlySales >= 100000:
@@ -25,11 +25,11 @@ elif monthlySales >= 80000:
 else:
     storeAmount = 0
 
-# This code gets the percent of increase in sales
+# This code gets the percent of increase in sales.
 salesIncrease = float(input('Enter the percent of sales increase:'))
 salesIncrease = salesIncrease / 100
 
-# This code determines the employee bonus
+# This if-elif-else statement determines the employee bonus.
 if salesIncrease >= .05:
     empAmount = 75
 elif salesIncrease >= .04:
@@ -39,7 +39,7 @@ elif salesIncrease >= .03:
 else:
     empAmount = 0
 
-# This code prints the bonus information
+# This code prints the bonus information.
 print('The store bonus amount is $', storeAmount)
 print('The employee bonus amount is $', empAmount)
 if (storeAmount == 6000 ) & (empAmount == 75):
