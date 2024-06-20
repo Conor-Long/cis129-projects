@@ -32,7 +32,7 @@ while counter <= NBR_OF_DAYS:
     totalPayout = totalBottles * PAYOUT_PER_BOTTLE
     print('\nThe total number of bottles collected is ' + str(totalBottles) + f'\nThe total paid out is: ${totalPayout:.2f}')
     print('\nDo you want to enter another week\'s worth of data?')
-    keepGoung = input('(Enter y or n): ')
+    keepGoing = input('(Enter y or n): ')
     print()
 
     # Restarts the loop if keepGoing equals 'y'
