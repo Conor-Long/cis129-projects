@@ -1,4 +1,7 @@
-# Lab 5 The Bottle Return Program
+# Module 5 Lab: Your Name
+# Conor Long
+# 6/19/2024
+# This program tracks the collection of a grocery store's bottle recycling over 1 week periods. It calculates and prints the total bottles collected as well as the total payout from selling them to recycling.
 
 # Step 1: Declare variables below 
 NBR_OF_DAYS = 7
