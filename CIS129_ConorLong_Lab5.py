@@ -17,7 +17,7 @@ while counter <= NBR_OF_DAYS:
         print('Day ' + str(counter) + ' bottles added to the total count is : ' + str(todayBottles))
         totalBottles += int(todayBottles)
         counter += 1
-      	# Step 3: Code to set value of variables 
+    # Step 3: Code to set value of variables 
     totalPayout = 0
     PAYOUT_PER_BOTTLE = .10
     totalPayout = totalBottles * PAYOUT_PER_BOTTLE
