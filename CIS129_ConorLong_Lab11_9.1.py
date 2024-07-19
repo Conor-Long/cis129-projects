@@ -17,11 +17,11 @@ for i in range(1, 8):
 # Opens the file in write mode.
 with open('grades.txt', 'w') as f:
     
-# Iterate over each grade in the "grade" list.
-for grade in grades:
+    # Iterate over each grade in the "grade" list.
+    for grade in grades:
         
-    # Write each grade followed by a newline character.
-    f.write(f'{grade}\n')
+        # Write each grade followed by a newline character.
+        f.write(f'{grade}\n')
 
 # Prints text
 print("Grades have been written to grades.txt")
