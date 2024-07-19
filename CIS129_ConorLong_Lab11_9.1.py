@@ -6,29 +6,24 @@
 # A list is created to store the grades.
 grades = []
 
-# Main function of the script is defined.
-def main():
+# Prints welcome message and prompt.
+print("Welcome to the grade updater!\nPlease enter each of five grades:")
 
-    # Prints welcome message and prompt.
-    print("Welcome to the grade updater!\nPlease enter each of five grades:")
-
-    # Iterates the entry of seven class grades to the "grades" list.
-    for i in range(1, 8):
-        grade = input("Grade " + str(i) + ": ")
-        grades.append(grade)
+# Iterates the entry of seven class grades to the "grades" list.
+for i in range(1, 8):
+    grade = input("Grade " + str(i) + ": ")
+    grades.append(grade)
         
-    # Opens the file in write mode.
-    with open('grades.txt', 'w') as f:
+# Opens the file in write mode.
+with open('grades.txt', 'w') as f:
     
-        # Iterate over each grade in the "grade" list.
-        for grade in grades:
+# Iterate over each grade in the "grade" list.
+for grade in grades:
         
-            # Write each grade followed by a newline character.
-            f.write(f'{grade}\n')
+    # Write each grade followed by a newline character.
+    f.write(f'{grade}\n')
 
-    # Prints text
-    print("Grades have been written to grades.txt")
+# Prints text
+print("Grades have been written to grades.txt")
 
-# Calls main
-main()
 
