@@ -1,4 +1,4 @@
-# MOdule 11 Lab Exercise 9.1: Class Grades
+# Module 11 Lab Exercise 9.1: Class Grades
 # Conor Long
 # 7/19/2024
 # This program takes the user's input of seven grades and updates the text files "grades.txt" with the values.
