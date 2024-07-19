@@ -3,10 +3,10 @@
 # 7/19/2024
 # This program takes multiple students' data as user inputs and stores that information in "grades.csv".
 
-# Imports csv module.
+# Imports the csv module.
 import csv
     
-# Open the file in write mode with newline='' to prevent extra newline characters.
+# Opens the file in write mode with newline='' to prevent extra newline characters.
 with open('grades.csv', 'w', newline='') as csvfile:
         
     # Creates and stores a CSV writer object in csv_writer.
